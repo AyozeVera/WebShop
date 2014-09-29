@@ -32,7 +32,9 @@
                         </ul>
                     </div>
                 </div>
-                <a color="red" href="./payshippage.jsp">prueba</a>
+                <a href="./payshippage.jsp">payshippage</a><br>
+                <a href="./cartpage.jsp">cartpage</a><br>
+                <a href="./finishpage.jsp">finish</a><br>
             </div>
             <div id="FooterWrapper"></div>
         </div>

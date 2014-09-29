@@ -25,32 +25,33 @@
                     
                 <fieldset id="personaldata">
                      <legend>Personal Data</legend>
-                     <lable for="name">Name: </lable><input type="text" name="name" id="name" size="10">
-                     <lable for="surname">Surname: </lable><input type="text" name="surname" id="surname" size="15"><br>
+                     <lable for="name">Name: </lable><input class="tb" type="text" name="name" id="name" size="10">
+                     <lable for="surname">Surname: </lable><input class="tb" type="text" name="surname" id="surname" size="15"><br>
                      <select name="dirtipe" id="dirtipe">
                          <option value="1">Street</option>
                          <option value="2">Avenue</option>
                      </select>
-                     <input type="text" name="dirname" id="dirname" size="15">
-                     <lable for="number">Nº: </lable><input type="text" name="number" id="number" size="4"><br>
-                     <lable for="township">Township: </lable><input type="text" name="township" id="township" size="25">
-                     <lable for="province">Province: </lable><input type="text" name="province" id="province" size="25">
-                     <lable for="postalcode">PostalCode: </lable><input type="text" name="postalcode" id="postalcode" size="5"><br>
-                     <lable for="country">Country: </lable><input type="text" name="country" id="country" size="10"><br>
-                     <lable for="phonenumber">PhoneNumber: </lable><input type="text" name="phonenumber" id="phonenumber" size="15">
-                     <lable for="email">eMail: </lable><input type="text" name="email" id="email" size="15">
+                     <input class="tb" type="text" name="dirname" id="dirname" size="15">
+                     <lable for="number">Nº: </lable><input class="tb" type="text" name="number" id="number" size="4"><br>
+                     <lable for="township">Township: </lable><input class="tb" type="text" name="township" id="township" size="25">
+                     <lable for="province">Province: </lable><input class="tb" type="text" name="province" id="province" size="25">
+                     <lable for="postalcode">PostalCode: </lable><input class="tb" type="text" name="postalcode" id="postalcode" size="5"><br>
+                     <lable for="country">Country: </lable><input class="tb" type="text" name="country" id="country" size="10"><br>
+                     <lable for="phonenumber">PhoneNumber: </lable><input class="tb" type="text" name="phonenumber" id="phonenumber" size="15">
+                     <lable for="email">eMail: </lable><input class="tb" type="text" name="email" id="email" size="15">
 
                  </fieldset>
-
+                    <br>
                  <fieldset id="paymethods">
                      <legend>Pay Methods</legend>
-                     <lable for="chname">Cardholder name: </lable><input type="text" name="chname" id="chname" size="10">
-                     <input type="text" name="chlastname" id="chlastname" size="10"><br>
-                     <lable for="expdatem">Expiration Date: </lable><input type="text" name="expdatem" id="expdatem" size="2">
+                     <lable for="chname">Cardholder name: </lable><input class="tb" type="text" name="chname" id="chname" size="10">
+                     <input class="tb" type="text" name="chlastname" id="chlastname" size="10"><br>
+                     <lable for="expdatem">Expiration Date: </lable><input class="tb" type="text" name="expdatem" id="expdatem" size="2">
                      <lable for="/">/</lable>
-                     <input type="text" name="expdatey" id="expdatey" size="2"><br>
-                     <lable for="seccode">Security Code: </lable><input type="text" name="seccode" id="seccode" size="10">
+                     <input class="tb" type="text" name="expdatey" id="expdatey" size="2"><br>
+                     <lable for="seccode">Security Code: </lable><input class="tb" type="text" name="seccode" id="seccode" size="10">
                  </fieldset>
+                    <input type="submit" value="Pagar" name="pagar" id="pagar">
                 </div>
             </div>
             <div id="FooterWrapper"></div>

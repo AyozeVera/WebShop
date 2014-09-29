@@ -21,16 +21,18 @@
                 </div>
             </div>
             <div id="ContentWrapper">
-                <div id="CategoryWrapper">
-                    <h1>Categories</h1>
-                    <div id="CategoryContent">
-                        <ul>
-                            <li>Fantasy</li>
-                            <li>Drama</li>
-                            <li>Thriller</li>
-                            <li>Romantic Novel</li>
-                        </ul>
-                    </div>
+                <div id="BillWrapper">
+                    <table>
+                        <tr>
+                            <th scope="col">Element</th>
+                            <th scope="col">Units</th>
+                            <th scope="col">Price</th>    
+                        </tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        
+                    </table>
+                    <lable name="total">Total:</lable>
+                    <lable name="totalres"> </lable>
                 </div>
                
             </div>

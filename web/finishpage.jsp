@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div id="ContentWrapper">
-
+                <h2>¡¡Compra finalizada, disfrute de su producto!!</h2>
             </div>
             <div id="FooterWrapper"></div>
         </div>

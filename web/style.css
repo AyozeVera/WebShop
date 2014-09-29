@@ -114,3 +114,27 @@ input {
 #FieldWrapper{
     margin: 0 auto;
 }
+lable{
+    margin: 3px;
+}
+
+.tb{
+    margin: 3px;
+}
+
+#BillWrapper table{
+    border: double;
+    border-color: black;
+}
+
+a{
+    text-decoration-color: Red;
+    font-color: Red;
+}
+
+h2{
+    font-size: 25pt;
+    color: blue;
+    margin: 0 auto;
+    alignment-adjust: central;
+}
